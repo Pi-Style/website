@@ -1,0 +1,106 @@
+.main{
+	position:relative;
+}
+
+#image-div{
+	margin:0;
+	height: 50em;
+    width: 100%;
+	background-image: url(../image/intro-bg.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.box{
+	display:inline-block;
+	padding:2em 2em;
+	width:15%;
+	height:40%;
+	position:absolute;
+	filter: drop-shadow(8px 8px 10px grey);
+	z-index:20;
+}
+
+.one{
+	background:white;
+	left:15%;
+	top:300px;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	
+
+}
+
+#img{
+	padding:.5em .5em;
+	width:90%;
+	border-radius:50%;
+	
+}
+
+.button {
+    background-color: #292524;
+    border: none;
+    color: white;
+    padding: 18px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 50px 30px;
+    cursor: pointer;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.two{
+	background:white;
+	left:40%;
+	top:300px;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+.two img{
+	border:1px solid black;
+}
+.button1 {
+    background-color: #292524;
+    border: none;
+    color: white;
+    padding: 18px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 50px 25%;
+    cursor: pointer;
+	font-family:"Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.three{
+	background:white;
+	left:65%;
+	top:300px;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+.button2 {
+    background-color: #292524;
+    border: none;
+    color: white;
+    padding: 18px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 50px 20%;
+    cursor: pointer;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
